@@ -1,0 +1,24 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "img/icon.png",
+         "48": "img/icon.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "description": "Extract webpage content and solve problems using OpenAI API",
+   "icons": {
+      "128": "img/icon.png",
+      "16": "img/icon.png",
+      "48": "img/icon.png"
+   },
+   "manifest_version": 3,
+   "name": "QuickAnswer - AI Solver",
+   "permissions": [ "activeTab", "scripting", "storage" ],
+   "host_permissions": ["https://*/*"],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.2"
+}
